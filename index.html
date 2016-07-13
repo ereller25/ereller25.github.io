@@ -399,7 +399,18 @@
                     </address>
                 </div>
 
-                <div class="col-md-9">
+<!-- 
+START WITH THIS, make it work then weave in what Arcadia has. 
+    <form action="https://formspree.io/ereller25@gmail.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+-->
+
+
+                <!-- <div class="col-md-9">
                     <form autocomplete="off">
                         <div class="row">
                             <div class="col-md-6">
@@ -416,7 +427,42 @@
                             <a href="#" class="btn send-btn">Send</a>
                         </div>
                     </form>
+                </div> -->
+                       <form action="https://formspree.io/ereller25@gmail.com" method="POST">
+
+
+        <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact me</h2>
+
+                    <h3 class="section-subheading text-muted">Let me know if you have any questions.</h3>
+
                 </div>
+                <div class="col-md-6">
+           <div class="form-group">
+               <input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name." name="name">
+               <p class="help-block text-danger"></p>
+           </div>
+           <div class="form-group">
+               <input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address." name="_replyto">
+               <p class="help-block text-danger"></p>
+           </div>
+           <div class="form-group">
+               <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number." name="phone">
+               <p class="help-block text-danger"></p>
+           </div>
+       </div>
+       <div class="col-md-6">
+           <div class="form-group">
+               <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message." name="message"></textarea>
+               <p class="help-block text-danger"></p>
+           </div>
+       </div>
+       <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
+                            </div>
+
+</form>
             </div>
         </div>
     </div>
