@@ -209,11 +209,16 @@ background-color: transparent;
 	margin-top: 200px;
 }
 
-#meet-us,
-#services,
 #works,
-#about-us{
+#meet-us{
 	padding: 60px 0;
+}
+
+#services,
+#about-us{
+	background: #282f35;
+	padding: 100px 0;
+	color: #ffffff;
 }
 
 a.down-btn span.fa.fa-angle-down {
