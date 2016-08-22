@@ -282,6 +282,13 @@ a.down-btn span.fa.fa-angle-down {
 }
 .space{ padding-top: 40px; }
 
+.rss {
+  padding-right: 150px;
+  padding-left: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #cta{
 	background: #282f35;
 	padding: 4% 0;
